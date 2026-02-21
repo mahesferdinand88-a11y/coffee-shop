@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Haven Premium</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="logo">
+    <img src="images/logo.png" alt="Coffee Haven Logo">
+    <span>Coffee Haven</span>
+  </div>
+
+  <nav id="nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#parallax">Experience</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Premium Coffee Experience</h1>
+    <p>Where every cup tells a story</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section hidden">
+  <h2>Tentang Kami</h2>
+  <p>Kami menyajikan kopi premium dari biji pilihan terbaik dengan suasana elegan dan nyaman.</p>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="section hidden">
+  <h2>Signature Menu</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="images/espresso.jpg">
+      <h3>Espresso</h3>
+      <p>Strong & Bold</p>
+    </div>
+    <div class="card">
+      <img src="images/latte.jpg">
+      <h3>Latte</h3>
+      <p>Smooth & Creamy</p>
+    </div>
+    <div class="card">
+      <img src="images/cappuccino.jpg">
+      <h3>Cappuccino</h3>
+      <p>Rich & Foamy</p>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX SECTION -->
+<section id="parallax" class="parallax">
+  <div class="parallax-content">
+    <h2>Feel The Atmosphere</h2>
+    <p>Experience comfort & premium taste</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section hidden">
+  <h2>Reservation</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Nama" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Pesan atau Booking" required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+  <p id="form-message"></p>
+</section>
+
+<footer>
+  <p>© 2026 Coffee Haven Premium</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
